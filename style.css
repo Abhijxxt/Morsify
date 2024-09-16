@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+}
+
+main {
+    width: 70%;
+    height: 80%;
+    background-color: #FF8427;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.title-container {
+    text-align: center;
+    padding: 15px 0px;
+}
+.title-container h1 {
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.morse-container {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+
+.morse-writer-container {
+    /* background-color: red; */
+    /* background-color: #FF8427; */
+    margin-top: 10px;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border-bottom: 3px solid #1E212B; */
+}
+
+.morse-writer-container h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+}
+
+.tools-box {
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tools-box button {
+    padding: 5px 10px;
+    margin-right: 12px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #1E212B;
+    color: white;
+}
+
+.text-container {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+
+.text-writer-container {
+    border-radius: 10px;
+    background-color: white;
+    width: 90%;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
