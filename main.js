@@ -48,14 +48,20 @@ document.getElementById('speak-morse').addEventListener('click', () => {
         } else {
             clearInterval(audioplayerID);
         }
-    }, 100);
+    }, 220);
     }
 )
 
 document.getElementById('copy-morse').addEventListener('click', () => {
     navigator.clipboard.writeText(editor.textContent);
-    alert(editor.textContent)
+    // alert(editor.textContent)
 })
+
+document.getElementById('copy-text').addEventListener('click', () => {
+    navigator.clipboard.writeText(text.textContent);
+    // alert(text.textContent)
+})
+
 
 function converter() {
     let index = morse.indexOf(word);
